@@ -3,17 +3,18 @@ export default class SendData {
     this.playerName = document.querySelector('#user');
     this.playerScore = document.querySelector('#score');
     this.setupListener();
+    this.postData();
   }
 
-  async postData(playername, playerscore) { 
+  async postData(playername, playerscore) {
     try {
       const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores';
 
       const data = {
         score: playerscore,
         user: playername,
-      }
-      
+      };
+     
       const response = await fetch(url, {
         method: 'POST',
         headers: {
