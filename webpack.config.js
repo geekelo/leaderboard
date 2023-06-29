@@ -6,6 +6,7 @@ const path = require('path');
    entry: {
      index: './src/index.js',
      print: './src/print.js',
+     fetch: './src/fetchdata.js',
    },
    devtool: 'inline-source-map',
   devServer: {

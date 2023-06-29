@@ -1,7 +1,11 @@
 import _ from 'lodash';
-import printMe from './print.js';
+import getData from './print.js';
 import './style.css';
 import './media-library/bg-image.jpg';
+
+const leaderboard = new getData();
+
+export default leaderboard;
 
 //  function component() {
 //    const element = document.createElement('div');

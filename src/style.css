@@ -3,16 +3,19 @@
 * {
   margin: 0;
   padding: 0;
+  text-overflow: ellipsis;
 }
 
 body {
   background-color: rgb(8, 0, 39);
-  background-image: url('./media-library/bg-image.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 .titleText {
@@ -27,11 +30,12 @@ body {
   gap: 15px;
   width: 80%;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 /* SCORES SECTION */
 .scoresContainer {
-  flex: 60%;
+  width: 60%;
   box-shadow: 2px 2px 5px 1px rgb(0, 0, 0);
 }
 
@@ -65,8 +69,12 @@ body {
   justify-content: space-between;
 }
 
-.scoreDetails:nth-child(2) {
+.scoreDetails:nth-child(even) {
   background-color: #7150de;
+}
+
+.fetchedData {
+  text-overflow: ellipsis;
 }
 
 /* FORM SECTION */
