@@ -5,6 +5,7 @@ export default class PrintMe {
     this.container = document.querySelector('.scoreDetailsContainer');
     this.fetchedData = new GetData();
     this.onLoad();
+    this.setupEvent();
   }
 
   create(item) {
@@ -30,6 +31,7 @@ export default class PrintMe {
     document.querySelector('.refreshBtn').addEventListener('click', (e) =>
     {
       e.preventDefault();
+      console.log('working');
       this.onLoad();
     }
     )

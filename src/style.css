@@ -8,6 +8,7 @@
 
 body {
   background-color: rgb(8, 0, 39);
+  background-image: url('./media-library/bg-image.jpg');
   background-repeat: repeat;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
@@ -37,6 +38,12 @@ body {
 .scoresContainer {
   width: 60%;
   box-shadow: 2px 2px 5px 1px rgb(0, 0, 0);
+}
+
+.scoreDetailsContainer {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 300px;
 }
 
 .tableHeading {
