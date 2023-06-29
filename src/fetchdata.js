@@ -1,5 +1,5 @@
 export default class GetData {
-  fetchData = async () => {
+  async fetchData() {
     try {
       const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores';
       const response = await fetch(url);
@@ -10,9 +10,8 @@ export default class GetData {
       } else {
         throw new Error('Retrieving data failed');
       }
-
     } catch (error) {
-
+      console.error(error); // Handle or log the error
     }
-  };
+  }
 }
