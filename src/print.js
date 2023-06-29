@@ -28,7 +28,7 @@ export default class PrintMe {
   }
 
   setupEvent() {
-    document.querySelector('.refreshBtn').addEventListener('click', (e) =>
+    document.querySelector('.refreshBtn').addEventListener('submit', (e) =>
     {
       e.preventDefault();
       console.log('working');
