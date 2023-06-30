@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions.
 
 <!-- PROJECT DESCRIPTION -->
 
-<img src="https://dl.dropboxusercontent.com/s/c1qjia9s0sqjd65/Screenshot%202023-06-30%20134854.png" width="auto">
+<img src="https://dl.dropboxusercontent.com/s/fkgvbvcgkxiru08/Screenshot%202023-06-30%20134854.png" width="auto">
 
 # 📖 LeaderBoard WebApp <a name="about-project"></a>
 
