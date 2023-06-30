@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions.
   <img src="https://dl.dropboxusercontent.com/s/110axfscx8e9q3q/Screenshot%202023-04-27%20024351.png" alt="logo" width=""  height="auto" />
   <br/>
 
-  <h3><b>A Personal Portfolio Site</b></h3>
+  <h3><b>LEADERBOARD WEBAPP</b></h3>
 
 </div>
 
@@ -39,39 +39,33 @@ After you're finished please remove all the comments and instructions.
 # 📗 Table of Contents
 
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 LeaderBoard WebApp ](#-leaderboard-webapp-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup ](#setup-)
+    - [Prerequisites ](#prerequisites-)
+    - [Install ](#install-)
+    - [Usage ](#usage-)
+    - [Run Tests ](#run-tests-)
+    - [Deployment ](#deployment-)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [Future Features ](#future-features-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Webpack-demo Template <a name="about-project"></a>
+<img src="https://dl.dropboxusercontent.com/s/fkgvbvcgkxiru08/Screenshot%202023-06-30%20134854.png" width="auto">
 
-**The Awesome Books WebApp** is a user-friendly platform designed to help users keep track of their personal book collection. The website allows users to add and delete books from their record, making it convenient to manage their reading materials.
+# 📖 LeaderBoard WebApp <a name="about-project"></a>
 
-Users can easily add books to their collection by providing the book's title and author information. The website stores this data and displays it in an organized manner, making it easy for users to browse through their book records. Each book entry includes details such as the title and author, providing users with a comprehensive overview of their collection.
-
-In addition to adding books, users can also remove books from their record when they no longer wish to track them. The website offers a simple deletion process, ensuring that users can effortlessly manage their collection over time.
-
-The Awesome Books WebApp prioritizes user experience and provides a clean and intuitive interface. It offers a seamless process for adding and deleting books, empowering users to maintain an up-to-date and personalized record of their reading materials.
-
-With the Awesome Books WebApp, users can effortlessly organize and track their book collection, ensuring they never lose sight of their favorite reads and enabling them to stay engaged with their literary adventures.
-
+**The LeaderBoard WebApp** The Leaderboard System is a web application that provides a platform for tracking and displaying user scores or rankings in various activities or competitions. It allows users to submit their scores and view the leaderboard to see how they compare to others.
 Head to the <a href="#live-demo">LIVE DEMO SECTION</a> for Live links and presentations
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -110,11 +104,11 @@ Head to the <a href="#live-demo">LIVE DEMO SECTION</a> for Live links and presen
 
 ### Key Features <a name="key-features"></a>
 
-- **Mobile Friendly** : this website performs well on a mobile device like a phone or tablet.
-- **Desktop Friendly**: this website is responsive to desktop screen sizes.
-- **Simple and Attractive Design** : the UI / UX is engaging and appealing.
-- **Functional** : this website is accessible, easy to navigate, and helpful for users.
-- **Animations and transitions : This website has engaging transitions and animations that makes it easier to use, smoother and more natural.
+- **User Registration:** Users can create accounts or log in using their existing credentials to participate in the leaderboard system.
+
+- **Score Submission:** Users can submit their scores for different activities or challenges through a user-friendly interface. The system securely stores and associates the submitted scores with the respective user accounts.
+
+- **Leaderboard Display:** The application generates a leaderboard that ranks users based on their scores. It provides an intuitive and visually appealing display that allows users to easily view the top performers and their scores.
 <!-- - ** PopUp windows **: this features add to see the project details about each project in popup windows.
 -  ** Form validation **: this features validate the email should be lowercase for portfolio contact. -->
 
@@ -126,7 +120,7 @@ Head to the <a href="#live-demo">LIVE DEMO SECTION</a> for Live links and presen
 
 > View the live demo of this project by clicking the text below.
 
-- [See Live Demo](https://geekelo.github.io/awesome-books-webapp/)
+- [See Live Demo](https://geekelo.github.io/leaderboard/dist/)
 <!-- - [First Presenation Video](https://www.loom.com/share/719c333faa524c5db6930878f33b809b) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,7 +133,7 @@ To get a local copy up and running, follow these steps.
 
 > Clone the repository
 ```
-git clone https://github.com/geekelo/awesome-books-webapp.git
+git clone https://github.com/geekelo/leaderboard.git
 ```
 > And you are ready to begin your project
 
@@ -199,7 +193,7 @@ You can deploy this project using the following procedure:
 - GitHub: [@geekelo](https://github.com/geekelo)
 - Twitter: [@Geekelo_xyz](https://twitter.com/Geekelo_xyz)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/eloghene-otiede)
-- [See Documentation of Author's inputs](./Documentation/Geekelo-input.md)
+<!-- - [See Documentation of Author's inputs](./Documentation/Geekelo-input.md) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,9 +203,15 @@ You can offer Contributions, submit an [issue](../../issues/), and make a featur
 
 ## Future Features <a name="future-features"></a>
 
-- Add pop up modals
-- Add the contact form 
-- Add more content pages
+- **Filtering and Sorting:** Users can customize the leaderboard by applying filters or sorting options to view specific categories, date ranges, or other relevant criteria. This feature enhances the user experience by providing flexibility in exploring the leaderboard.
+
+- **Real-time Updates:** The leaderboard dynamically updates as new scores are submitted, ensuring that users always have access to the latest rankings and results.
+
+- **User Profiles:** Users can create and personalize their profiles by adding avatars, usernames, and other optional information. This adds a social element to the leaderboard system, enabling users to connect with each other and compare their achievements.
+
+- **Security and Authentication:** The application implements secure authentication mechanisms to protect user data and ensure that only authorized users can access and submit scores. It adheres to industry-standard security practices to maintain the integrity and confidentiality of user information.
+
+- **Admin Dashboard:** An administrative dashboard provides privileged access to authorized administrators, allowing them to manage user accounts, review and moderate scores, and perform other administrative tasks to maintain the integrity and fairness of the leaderboard system.
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -233,6 +233,6 @@ You can offer Contributions, submit an [issue](../../issues/), and make a featur
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
