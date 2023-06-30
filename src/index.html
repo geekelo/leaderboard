@@ -6,6 +6,26 @@
     <title>Wbpack Exercise</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+  <h1 class="titleText">LeaderBoard</h1>
+  <section class="contentContainer"> 
+    <main class="scoresContainer">
+      <form action="" class="getForm" method="GET">
+        <h2 class="tableHeading">Recent Scores</h2>
+        <input class="refreshBtn" type="submit" name="" value="Refresh">
+      </form>
+      <div class="scoreDetailsContainer">
+        <p class="scoreDetails"><i>Loading data...</i></p>
+
+      </div>
+    </main>
+    <div class="formContainer">
+      <h2 class="tableHeading getForm addScoreText">Add your Score</h2>
+      <form action="/" method="POST" class="postForm">
+        <input id="user" class="detailInput" type="text" placeholder="Your name" name="user">
+        <input id="score" class="detailInput" type="number" placeholder="Your Score" name="score">
+        <label><input class="submitBtn" type="submit" value="Submit"></label>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
