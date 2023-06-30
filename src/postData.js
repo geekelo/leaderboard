@@ -8,13 +8,13 @@ export default class SendData {
 
   async postData(playername, playerscore) {
     try {
-      const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores';
+      const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FKHju9Dj2M8LwqYT9Cgw/scores';
 
       const data = {
         score: playerscore,
         user: playername,
       };
-     
+
       const response = await fetch(url, {
         method: 'POST',
         headers: {
@@ -22,18 +22,15 @@ export default class SendData {
         },
         body: JSON.stringify(data)
       });
-      
+
       if (response.ok) {
         const result = await response.json();
         console.log(result);
         return result;
-        
-      } else {
-        throw new Error('Failed to submit form');
-      }
+    } 
 
-    } catch (error) {
-      console.error(error);
+  } catch (error) {
+      return null;
     }
   }
 

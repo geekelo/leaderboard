@@ -1,7 +1,7 @@
-import GetData from "./fetchdata";
+import GetData from './fetchdata.js';
 
 export default class PrintMe {
-  constructor () {
+  constructor() {
     this.container = document.querySelector('.scoreDetailsContainer');
     this.fetchedData = new GetData();
     this.onLoad();
@@ -17,7 +17,7 @@ export default class PrintMe {
 
   display(result) {
     this.container.innerHTML = '';
-    result.forEach(each => {
+    result.forEach((each) => {
       this.create(each);
     });
   }
@@ -28,12 +28,9 @@ export default class PrintMe {
   }
 
   setupEvent() {
-    document.querySelector('.refreshBtn').addEventListener('submit', (e) =>
-    {
+    document.querySelector('.refreshBtn').addEventListener('submit', (e) => {
       e.preventDefault();
-      console.log('working');
       this.onLoad();
-    }
-    )
+    });
   }
 }
