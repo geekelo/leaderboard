@@ -7,6 +7,7 @@ module.exports = {
     index: './src/index.js',
     print: './src/print.js',
     fetch: './src/fetchdata.js',
+    postdata: './src/postData.js',
   },
   devtool: 'inline-source-map',
   devServer: {
